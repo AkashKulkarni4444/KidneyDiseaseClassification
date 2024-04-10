@@ -57,3 +57,9 @@ x==========x]
 [2024-04-11 00:55:20,605: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2024-04-11 02:45:49,482: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-11 02:45:49,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-11 02:45:49,493: INFO: common: created directory at: artifacts]
+[2024-04-11 02:46:13,489: INFO: common: json file saved at: scores.json]
+[2024-04-11 02:46:17,524: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-11 02:46:18,499: INFO: builder_impl: Assets written to: C:\Users\HP\AppData\Local\Temp\tmp2t449wn7\model\data\model\assets]
