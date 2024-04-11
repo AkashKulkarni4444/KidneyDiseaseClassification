@@ -6,10 +6,6 @@ import os
 
 STAGE_NAME = "Evaluation stage"
 
-os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/AkashKulkarni4444/KidneyDiseaseClassification.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"]="AkashKulkarni4444"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="a5822a71ae059c7a235dcb34190305eb72d1b62e"
-
 class EvaluationPipeline:
     def __init__(self):
         pass
