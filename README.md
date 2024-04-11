@@ -67,3 +67,5 @@ export MLFLOW_TRACKING_USERNAME=AkashKulkarni4444
 export MLFLOW_TRACKING_PASSWORD=a5822a71ae059c7a235dcb34190305eb72d1b62e
 
 ```
+<!-- dvc repro  -->
+<!-- dvc dag show dependance-->
