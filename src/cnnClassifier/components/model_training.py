@@ -64,7 +64,11 @@ class Training:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
-
+        
+        # Save the model to the additional location "model/model.h5"
+        os.makedirs("model", exist_ok=True)
+        additional_path = os.path.join("model", "model.h5")
+        model.save(additional_path)
 
 
     
