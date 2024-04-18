@@ -26,7 +26,7 @@ def home():
 @cross_origin()
 def trainRoute():
     os.system("python main.py")
-    # os.system("dvc repro")
+    # os.system("dvc repro") removed repro because it is used for training and collaboration and not after deployment
     return "Training done successfully!"
 
 
