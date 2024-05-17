@@ -245,3 +245,13 @@ x==========x]
  * Running on http://10.0.42.184:8080]
 [2024-05-17 15:28:38,397: INFO: _internal: [33mPress CTRL+C to quit[0m]
 [2024-05-17 15:28:50,167: INFO: _internal: 127.0.0.1 - - [17/May/2024 15:28:50] "GET / HTTP/1.1" 200 -]
+[2024-05-17 15:37:13,695: INFO: stage_04_model_evaluation: *******************]
+[2024-05-17 15:37:13,696: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-17 15:37:13,700: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-17 15:37:13,705: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-17 15:37:13,706: INFO: common: created directory at: artifacts]
+[2024-05-17 15:50:42,660: INFO: common: json file saved at: scores.json]
+[2024-05-17 15:50:42,664: INFO: common: json file saved at: scores.json]
+[2024-05-17 15:50:42,666: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
